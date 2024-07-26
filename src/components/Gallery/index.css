@@ -1,0 +1,48 @@
+/* Write your code here. */
+
+.gallery-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  max-width: 1140px;
+}
+
+.gallery-image {
+  height: 80%;
+  width: 90%;
+  border-radius: 15px;
+}
+
+/* .details-container {
+  text-align: left;
+} */
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 25px;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 18px;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
